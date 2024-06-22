@@ -60,6 +60,7 @@ const App = () => {
                     id={i}
                     onChange={onChange}
                     disabled={isSelectionTitle}
+                    value={selection[i]}
                 >
                     {optionTags}
                 </select>
